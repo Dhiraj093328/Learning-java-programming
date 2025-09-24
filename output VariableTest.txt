@@ -1,0 +1,12 @@
+
+C:\Users\91742\Desktop\github_projects\Learning-java-programming>javac VariableTest.java
+
+C:\Users\91742\Desktop\github_projects\Learning-java-programming>java VariableTest
+value of byte: 1
+value of short: 5
+value of int: 10
+value of long: 1001
+value of boolean: true
+value of float: 1.5
+value of char: s
+value of double: 13.5
