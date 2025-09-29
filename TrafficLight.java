@@ -4,11 +4,11 @@ class TrafficLight {
 
         String color = "Yellow";  
 
-        if (color.equals("Red")) {
+        if (color=="Red") {
             System.out.println("STOP");
-        } else if (color.equals("Yellow")) {
+        } else if (color=="Yellow") {
             System.out.println("READY");
-        } else if (color.equals("Green")) {
+        } else if (color=="Green") {
             System.out.println("GO");
         } else {
             System.out.println("Invalid colour");
