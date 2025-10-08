@@ -1,0 +1,12 @@
+//java Constructor : Special type of method which having same name as class name
+
+constructor :
+ -it have same name as class name
+-we can have access modifier to control object creation
+-constructor does not have return type
+-constructor can accept parameter same as normal java methods
+ 
+Types Of constructor in java :
+
+1.Default Constructor
+2.Parameterized Constructor
