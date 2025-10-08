@@ -31,7 +31,12 @@ Any real-world entity which has state and behavior is called an **Object**.
 
 State:
 ------
-Represents the information or data about the object.
+Represents the related information or data(static data) about the object.
+
+Behaviour:
+------
+object can perform any action is known as Behaviour.
+
 
 
 Types of Objects:
@@ -65,12 +70,31 @@ Examples:
 
    States:
    -------
-   - Speed  
-   - Position  
-   - Fuel Level  
+   - Chesist No  
+   - Vehicle Name
+   - Brand,Model
+   - Type of Wheel  
 
    Behavior:
    ---------
    - Braking  
    - Turning  
    - Accelerating
+   - Stop
+   - gear shifting
+   - Speed
+
+-----------------------------------------------------------------------
+
+Q How to create a Object ?
+
+=> syntax :
+class object
+{
+	public static void main(string args[])
+	{
+		class Name Name_Of_object =new classname();
+		objectDemo object1 = new objectDemo();
+	}
+}
+
