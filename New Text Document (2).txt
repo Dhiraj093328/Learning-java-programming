@@ -1,0 +1,18 @@
+class sample
+{
+	void display(Main obj)
+	{
+		System.out.println("Display Method Executed");
+	}
+
+	void show()
+	{
+		System.out.println("show method executed");
+		display(this);
+	}
+
+	public static void main(String args[])
+	{
+		Sample s1=new Sample();
+	}
+}
