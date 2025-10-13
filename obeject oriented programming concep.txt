@@ -1,0 +1,64 @@
+obeject oriented programming concepts
+|
+|---Inheritance
+|
+|---Polymorphism
+|
+|
+|----Encapsulation
+|
+|
+|---Abstraction
+
+
+1] Inheritance :
+
+Establish relationship classes where one class can act parent class and other class can act as Child Class
+
+-one parent class and one or more child class
+
+2] polymorphism
+any form a method which used a single class or more class
+-all class have child class
+
+Types of polymorphism :
+
+1) method overlaoading
+2) Method overriding
+
+
+3] Encapsulation :
+in Encapusulation providin
+-provide protection data members (variable,method) can not access directly
+
+4] Abstraction :
+Showing important functionality and hiding the unnecessary details is called as abstraction
+
+abstract class can achieve 2 ways abstract classes and 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
