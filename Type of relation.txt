@@ -1,0 +1,9 @@
+Inheritance it is IS -a kind of relationship
+Eg. Account = Account is a balance
+	shape = shape is a circle
+
+Aggrigation has -a kind of relationship
+eg. shape = Shape has a area 
+eg. shape = shape has a dimension
+
+Object : as -a kind of relationship
