@@ -1,0 +1,56 @@
+Types of inheritance 
+1) single Inheritance       -------------|
+2) multi level Inheritance  -------------|------this 3-type Used in java
+3) Hierarchical Inheritance  ------------|
+4) multiple Inheritance
+5) hybrid Inheritance
+multiple & hybrid not supported in java
+
+1) Single Inheritence
+
+	|---------|
+	| Class A |
+	|---------|
+	      |
+	      | is a
+	      |
+	|---------|
+	| Class B |
+	|---------|
+
+2) Multi-Level Inheritance
+
+	|---------|
+	| Class A |
+	|---------|
+	      |
+	      | 
+	      |
+	|---------|
+	| Class B |
+	|---------|
+	      |
+	      | 
+	      |
+	|---------|
+	| Class c |
+	|---------|
+
+3)Hierarchical Inheritance
+
+
+	|---------|
+	| Class A |
+	|---------|
+	      |
+|----------------------------|
+    |                  | 
+    |                  |
+|---------|       |---------|
+| Class B |       | Class c |
+|---------|       |---------|
+
+
+	    
+    
+
