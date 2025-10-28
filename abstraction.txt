@@ -1,0 +1,68 @@
+---------------------------------------------
+            ABSTRACTION
+---------------------------------------------
+
+- Abstraction is showing functionality and hiding details or complex information.
+
+- 0% to 100% Abstraction → Achieved using Abstract Class.
+- 100% Abstraction       → Achieved using Interface.
+
+
+---------------------------------------------
+            ABSTRACT CLASS
+---------------------------------------------
+
+- Abstract class is a class declared with the 'abstract' keyword.
+- It can contain both abstract and non-abstract methods.
+- It provides 0% to 100% abstraction.
+- Abstract class cannot be instantiated.
+- Abstract class can contain:
+    - Constructors
+    - Static methods
+    - Final methods
+
+
+---------------------------------------------
+            ABSTRACT METHOD
+---------------------------------------------
+
+- A method without a body.
+- It is declared using the 'abstract' keyword.
+- It must be implemented in the subclass.
+
+Example:
+
+abstract class A {
+    abstract void display();   // Abstract Method (no body)
+}
+
+
+---------------------------------------------
+            NON-ABSTRACT METHOD
+---------------------------------------------
+
+- A method with a body (implemented method).
+
+Example:
+
+class B {
+    void display() {
+        System.out.println("Hello");
+    }
+}
+
+
+---------------------------------------------
+            EXAMPLE: ABSTRACT CLASS
+---------------------------------------------
+
+abstract class A {
+
+    abstract void display();   // Abstract Method
+
+    void show() {              // Non-Abstract Method
+        System.out.println("Non-abstract method");
+    }
+}
+
+---------------------------------------------

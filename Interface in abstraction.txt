@@ -1,0 +1,2 @@
+Interface :
+Interface contains static constants and abstract method
