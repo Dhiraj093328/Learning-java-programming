@@ -1,0 +1,22 @@
+------------------------------------------------------------
+                 Encapsulation (Data Protection)
+------------------------------------------------------------
+
+- Encapsulation is one of the main concepts of OOP (Object-Oriented Programming).
+- It means wrapping data (variables) and methods into a single unit (class).
+- It helps in protecting data from unauthorized access or modification.
+- Achieved by using private variables and public getter/setter methods.
+
+
+------------------------------------------------------------
+                         Packages in Java
+------------------------------------------------------------
+
+- A package is a folder that contains related classes and interfaces.
+- It helps in organizing code and avoiding name conflicts.
+- A single project can contain multiple packages.
+
+Types of Packages:
+------------------
+1. Built-in Packages (e.g., java.util, java.io)
+2. User-defined Packages
