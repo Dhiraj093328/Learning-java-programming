@@ -1,0 +1,35 @@
+Array in java :
+-Array is data structure which allows sore data of similar type
+-Array having fixed size
+-Array elements get stored on contigioun memory Location
+-java Array is object which allows us store similar type
+-Array is a index collection where index start from 0
+
+
+Declare array in java :
+
+Datatype name_of_array[size];
+
+Datatype[size] name_of_array;
+
+Datatype [size]name_of_array;
+
+initiate array :
+ Method`1:
+
+int arr[]=new int [5];
+
+
+arr[0]=10;
+arr[1]=20;
+arr[2]=30;
+arr[3]=40;
+arr[4]=50;
+arr[5]=60;
+arr[6]=70;
+
+
+Method`2:
+
+int arr{10,20,30,40.50,60};
+
