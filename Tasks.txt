@@ -1,0 +1,7 @@
+Task 5: Arrange all numbers of your array in ascending /descending order?
+
+Task 6 : find out average of all elements in array?
+
+Task 7 : Copy data of one array to another?
+
+Task 8 : search element in an array ?
