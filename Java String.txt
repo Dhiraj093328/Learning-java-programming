@@ -1,0 +1,16 @@
+Java String
+
+String is sequence of characters/Character array
+
+java string is immutable object(we cannot able to chane it directly)
+
+
+String name="amol";
+	or
+char[]name={'a','m','o','l'};
+
+
+string name1="Alex";
+String name2="Geo";
+
+Sys
