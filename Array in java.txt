@@ -8,11 +8,11 @@ Array in java :
 
 Declare array in java :
 
-Datatype name_of_array[size];
+Datatype name_of_array[size]; =EX : INT[] nos;
 
-Datatype[size] name_of_array;
+Datatype[size] name_of_array; =EX : string name[];
 
-Datatype [size]name_of_array;
+Datatype [size]name_of_array; =EX : float []area;
 
 initiate array :
  Method`1:

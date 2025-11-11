@@ -15,7 +15,7 @@
 - Abstract class is a class declared with the 'abstract' keyword.
 - It can contain both abstract and non-abstract methods.
 - It provides 0% to 100% abstraction.
-- Abstract class cannot be instantiated.
+- Abstract class cannot be instantiated.(can-not create object of abstract class)
 - Abstract class can contain:
     - Constructors
     - Static methods

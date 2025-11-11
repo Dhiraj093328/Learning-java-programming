@@ -1,6 +1,6 @@
 //Method overloading in polymorphism
 //Using the same class mjultiple time is called as method overloading
-// 2-ways to achieve overloading :
+// 2-ways to achieve or possible overloading :
 //	1)changing no of arguments 
 //	2) Changing type of argument
 

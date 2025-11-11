@@ -1,4 +1,4 @@
-Java String
+Java String :
 
 String is sequence of characters/Character array
 
@@ -9,7 +9,7 @@ String name="amol";
 	or
 char[]name={'a','m','o','l'};
 
-
+ex 
 string name1="Alex";
 String name2="Geo";
 

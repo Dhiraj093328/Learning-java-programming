@@ -1,3 +1,6 @@
+//Polymorphism
+//Many forms of Methods that we write in single class or in //inherited(child/derived)
+
 class PolyDemo{
 
 	void display()

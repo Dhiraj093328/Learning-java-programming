@@ -1,2 +1,19 @@
 Interface :
-Interface contains static constants and abstract method
+-Interface contains static constants and abstract method which is use to achieve 100% abstraction in java program
+- All methods are by default abstract till java 8
+- interface is used to achieve multiple inheritance and hybrid inheritance in java
+ 
+ex :
+interface A{
+
+	void show();
+
+	void run();
+
+	void draw();
+
+
+}
+
+java 8 : it allows us to write static and default method
+java 9 : it allows us to write private methods

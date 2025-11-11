@@ -1,0 +1,5 @@
+For-Loop in Array:
+
+For Each LOOP needs 2 things
+1)Datatype of that you want print
+2)you will require name of structure for example name of  array
