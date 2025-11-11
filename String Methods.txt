@@ -1,0 +1,121 @@
+-----------------------------------------
+           STRING METHODS IN JAVA
+-----------------------------------------
+
+1. concat()
+-----------------------------------------
+• Used to concatenate (join) two strings.
+Example:
+    String s1 = "Hello";
+    String s2 = "World";
+    System.out.println(s1.concat(s2));
+Output:
+    HelloWorld
+
+
+2. length()
+-----------------------------------------
+• Returns the length (number of characters) in a string.
+Example:
+    String s1 = "HelloRam";
+    System.out.println(s1.length());
+Output:
+    8
+
+
+3. charAt(int index)
+-----------------------------------------
+• Returns the character at the specified index.
+Example:
+    String s1 = "HelloRam";
+    System.out.println(s1.charAt(3));
+Output:
+    l
+
+
+4. substring(int start, int end)
+-----------------------------------------
+• Returns part of the string from start index (inclusive) to end index (exclusive).
+Example:
+    String s1 = "Welcome";
+    // Index positions: W-0, e-1, l-2, c-3, o-4, m-5, e-6
+    System.out.println(s1.substring(3,6));
+Output:
+    com
+
+
+5. equals(String)
+-----------------------------------------
+• Compares two strings for equality.
+Example:
+    String s1 = "Fct";
+    String s2 = "Fct";
+    String s3 = "Fctp";
+
+    System.out.println(s1.equals(s2));   // true
+    System.out.println(s1.equals(s3));   // false
+
+
+6. toUpperCase()
+-----------------------------------------
+• Converts all characters of a string to uppercase.
+Example:
+    String s1 = "abc";
+    System.out.println(s1.toUpperCase());
+Output:
+    ABC
+
+
+7. toLowerCase()
+-----------------------------------------
+• Converts all characters of a string to lowercase.
+Example:
+    String s1 = "ABC";
+    System.out.println(s1.toLowerCase());
+Output:
+    abc
+
+
+8. join()
+-----------------------------------------
+• Joins multiple strings with a specified separator.
+Examples:
+    String s1 = String.join(" ", "Good", "Morning", "All");
+    Output: Good Morning All
+
+    String s2 = String.join("-", "Have", "a", "nice", "day");
+    Output: Have-a-nice-day
+
+    String s3 = String.join("::", "10", "20", "30");
+    Output: 10::20::30
+
+    String s4 = String.join("/", "19", "12", "2024");
+    Output: 19/12/2024
+
+Another Example:
+    String s5 = String.join(",", "This", "year", "we", "received", "huge", "rain");
+    Output: This,year,we,received,huge,rain
+
+
+9. contains(String)
+-----------------------------------------
+• Checks if a given substring exists within a string.
+Example:
+    String s1 = "Awesome";
+    System.out.println(s1.contains("some")); // true
+    System.out.println(s1.contains("done")); // false
+
+
+10. trim()
+-----------------------------------------
+• Removes leading and trailing spaces from a string.
+Example:
+    String s1 = "   coding is   ";
+    System.out.println(s1 + "awesome");
+Output:
+       coding is   awesome
+
+    System.out.println(s1.trim() + " awesome");
+Output:
+    coding is awesome
+
