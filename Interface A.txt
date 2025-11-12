@@ -1,0 +1,29 @@
+Interface A
+{
+	int id=100;
+}
+
+Interface B
+{
+	String name="Vrushabs";
+
+}
+
+Interface D
+{
+	String color="White";
+
+class c implements A,B,D
+{
+	String city="Pune";
+	void display()
+	{
+		System.out.println("Id: "+id+" Name: "+name+" City:"+city)
+	}
+}
+}
+public static void main(String)
+{
+	c c1=new c();
+	c1.display();
+}

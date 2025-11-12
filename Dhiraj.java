@@ -1,26 +1,24 @@
-Class A
+Class D
 {
 	int id=100;
 }
 
-class B
+class E
 {
 	String name="Vrushabs";
 
 }
 
-Class C extends A_, B_
+Class F extends D
 {
 	String city="Pune";
 	void display()
 	{
 		System.out.println("Id:"+id+"Name: "+name+" City:"+city);
 	}
-}
-class Dhiraj
-public static void main(String)
-{
-	System.out.print("Dhiraj");
-	System.out.print("Waghmare");
-	System.out.print("Address : saraswati hou. society rupeenagar");
+	public static void main(String args[])
+	{
+		F f1=new f();
+		f1.display();
+	}
 }
