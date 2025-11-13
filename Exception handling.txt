@@ -1,0 +1,2 @@
+Exception :
+Exception is Event  which occurs in java program and it interrupts normal flow of execution of your program
