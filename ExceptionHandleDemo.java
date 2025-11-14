@@ -1,0 +1,18 @@
+class ExceptionHandleDemo {
+    public static void main(String args[]) {
+
+        int a = 10;
+        int b = 0;
+
+        System.out.println("Welcome to Exception Handling");
+
+        try {
+            System.out.println(a / b);
+        } 
+        catch (NullPointerException e) {
+            System.out.println(e);
+        }
+
+        System.out.println("Rest of the code of my program");
+    }
+}
