@@ -1,0 +1,7 @@
+How we can achieve synchronization in threads
+1) Mutually Exclusive
+-Syncronized Method
+-Syncronized Block
+-static syncronization
+
+2) Inter thread communication
