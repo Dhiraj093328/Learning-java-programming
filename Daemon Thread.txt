@@ -1,0 +1,12 @@
+Daemon Thread :
+Daemon Thread is a Thread whos life is depend on the mercy of other thread
+-Daemon Thread Execute on last
+-Daemon Thread used to perform end program processing or activities
+
+to create daemon thread
+For making daemon thread :
+-->T1.setDaemon(true);
+
+to know the thread is daemon or not :
+
+--> isDaemon();//true/fals
