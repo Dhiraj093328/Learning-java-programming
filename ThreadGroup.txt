@@ -1,0 +1,16 @@
+ThreadGroup :
+
+ThreadGroup is a group of thread 
+
+ShutDownHook :
+- ShutDownHook is a special type of thread in java
+- It is automatically executes when JVM gets shutdown
+- It is use for the close database connection
+- It is use for the close files connection
+- It is used to maintain logs
+- It is use relase resources of system
+
+
+
+
+
