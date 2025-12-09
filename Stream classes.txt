@@ -1,0 +1,13 @@
+Stream classes: 
+-Stream classes will allow to read and right any binary data from and to text and binary files
+eg. images,videos,audio,text
+
+Console :
+Console Read and write class to command line(Console)
+
+Reader/Writer classes :
+These are specially used to write character data into text files
+
+
+
+Explore different methods of console class writer and reader classes try to prepare their examples using chatgpt ?
