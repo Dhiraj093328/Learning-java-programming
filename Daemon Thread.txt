@@ -10,3 +10,5 @@ For making daemon thread :
 to know the thread is daemon or not :
 
 --> isDaemon();//true/fals
+
+-Daemon Thread used to perform background task such as garbage collection, JIT compiler,finalize method,antivirus

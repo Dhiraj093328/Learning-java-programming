@@ -1,0 +1,2 @@
+DataOutputStream
+-use to write premitive datatype data into files in the form bytes

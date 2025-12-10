@@ -1,0 +1,26 @@
+File Handling :
+
+Various operations perform the file
+
+eg,Crate file, open File , Read File , Write File, close File ,append to the file
+
+File Handling operations supported by java :
+
+
+1. Create file ----------------3 ways |-----------1.Stream classes--2.Writer classes--3.file class
+
+2.Get File Information :
+
+use methods :
+1.getName() - get the name the file
+2.getAbsolutePath()- get the file pth
+3.canRead()- do we have
+4.canWrite(): do we have permission for reading
+5.canRead(): do we have permission for reading
+6.length(): Length of file
+
+3.Write a data to the file----|
+			      |----file write and read
+4.Read data from a file-------|
+
+5.Delete a file-------delete()

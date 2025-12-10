@@ -1,0 +1,4 @@
+ByteArrayOutputStream
+
+-common information to multiple files at a time 
+-This will be using computer memory not a disk memory

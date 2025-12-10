@@ -1,0 +1,16 @@
+Thread Pool :
+
+-Group of working Thread put to gether which are always ready to work      is called as Thread Pool.
+
+- java uses the cocept of Thread pool it collect the no of working thread put to gether to manage the work insted of creating individual thread and assigning the work.
+
+
+# 3-methods provide java to make thread pool
+
+1.new FixedThread Pool :
+
+new Fixed ThreadPool method allow to create a Thread Pool of fixed sized of thread
+
+eg newFixedThreadPool(int n)
+
+n=sioze of Thread pool
