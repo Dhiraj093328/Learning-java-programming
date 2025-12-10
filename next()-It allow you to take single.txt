@@ -1,0 +1,32 @@
+next()-It allow you to take single string as input
+sc.next();
+sc.nextLine
+
+hasnext()-
+
+above both methods use to seprate data
+
+The methos starts wioth next are use to take inputs 
+next()- take inputs irrespective of datatype(int,string,float),also as token
+
+e.g o5 is trainer 
+
+05
+
+nextLine() - allow to take String input as asentence(line)
+
+eg : 
+
+I love India
+
+nextFloat()-Float Input
+
+nextInt ()-Integer Input
+
+hasNext()-these use to validate and return boolen value
+
+hasNextLine()- these use to verify next token is int or not
+
+hasNextInt()- use to verify next token is int or not
+
+hasNextFloat()- juse to verify next token is float or not
