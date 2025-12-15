@@ -1,0 +1,73 @@
+INTERVIEW QUESTIONS AND ANSWERS ON COLLECTIONS
+
+
+1. WHAT IS COLLECTION?
+Collection is a framework in Java used to store, manage,
+and manipulate a group of objects as a single unit.
+It provides dynamic storage and flexibility compared to arrays.
+
+
+2. WHAT IS THE DIFFERENCE BETWEEN GENERICS AND COLLECTION?
+
+---------------------------------------------------------
+| GENERICS                    | COLLECTION              |
+---------------------------------------------------------
+| Provides type safety         | Stores group of objects |
+| Restricts data type          | Manages data            |
+| Avoids ClassCastException   | Allows dynamic storage  |
+| Works at compile time       | Works at runtime        |
+| Example: ArrayList<String>  | Example: ArrayList      |
+---------------------------------------------------------
+
+
+3. WHY DO WE NEED COLLECTIONS?
+- Arrays have fixed size.
+- Collections grow and shrink dynamically.
+- They provide built-in methods for searching, sorting,
+  and manipulating data.
+- Collections improve code flexibility and performance.
+
+
+4. WHAT IS THE DIFFERENCE BETWEEN ARRAY AND COLLECTION?
+
+---------------------------------------------------------
+| ARRAY                       | COLLECTION              |
+---------------------------------------------------------
+| Fixed size                  | Dynamic size            |
+| Stores primitive & objects  | Stores only objects     |
+| No built-in utility methods | Rich utility methods    |
+| Less flexible               | More flexible           |
+---------------------------------------------------------
+
+5.WHAT ARE THE THREE COLLECTION INTERFACES USED IN JAVA?
+
+The three main collection interfaces used in Java are:
+
+1. LIST INTERFACE
+- Stores elements in a sequence.
+- Maintains insertion order.
+- Allows duplicate elements.
+Examples:
+- ArrayList
+- LinkedList
+- Vector
+- Stack
+
+
+2. SET INTERFACE
+- Stores only unique elements.
+- Does not allow duplicate values.
+- Does not maintain insertion order (except LinkedHashSet).
+Examples:
+- HashSet
+- LinkedHashSet
+- TreeSet
+
+
+3. QUEUE INTERFACE
+- Stores elements in FIFO (First In First Out) order.
+- Used when elements need to be processed in order.
+Examples:
+- PriorityQueue
+- ArrayDeque
+

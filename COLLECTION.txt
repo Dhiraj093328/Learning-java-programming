@@ -1,0 +1,63 @@
+COLLECTION
+
+Collection is a group of elements.
+
+
+WHY DO WE NEED COLLECTION?
+- Array is a collection of elements of similar data types.
+- Array has a fixed size.
+- Once the array size is defined, it cannot grow or shrink.
+
+To overcome this limitation, Collections are used.
+
+
+ARRAYLIST
+- ArrayList is a collection of elements of the same type.
+- It can grow and shrink dynamically when elements are added or removed.
+
+
+COLLECTION IN JAVA
+- Collection can grow and shrink dynamically.
+- Size changes based on actions like adding or removing elements.
+
+
+ITERABLE INTERFACE
+- Iterable is the root interface in the Collection Framework.
+
+
+MAIN TYPES OF COLLECTION INTERFACES IN JAVA
+
+1. LIST
+- List is a sequence of elements.
+- It maintains insertion order.
+- It allows duplicate elements.
+
+Classes that implement List:
+1. ArrayList
+2. LinkedList
+3. Vector
+4. Stack
+
+
+2. SET
+- Set is a collection of well-defined elements.
+- It does not allow duplicate values.
+- It stores only unique elements.
+
+Classes that implement Set:
+1. HashSet
+2. LinkedHashSet
+3. SortedSet (TreeSet)
+
+
+3. TREE
+- Tree is used to arrange data in a specific order.
+- Example: Ascending order.
+
+
+4. QUEUE
+- Queue follows FIFO (First In, First Out) principle.
+
+Classes that implement Queue:
+1. PriorityQueue
+2. ArrayDeque
