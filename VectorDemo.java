@@ -13,20 +13,25 @@ class VectorDemo
 		v1.add("Cruiser");
 		v1.addElement("innova crysta");
 		v1.removeElementAt(4);
-		v1.removeElements();
+
+		System.out.println("\n");
 
 
 		System.out.println(v1);
+
+		System.out.println("\n");
+
 		System.out.println("Element at index 4 :"+v1.elementAt(4));
 		System.out.println("First Element :"+v1.firstElement());
 		System.out.println("Last Element :"+v1.lastElement());
 		System.out.println("Adress of all Element :"+v1.elements());
-		//System.out.println(removeElement());
-		//System.out.println(v1.removeelementAt(4));
-
-
-
-
+		System.out.println("Adress of all Element :"+v1.elements());
+		System.out.println("Contains innova :"+v1.contains("innova"));
+		System.out.println("Contains Legender:"+v1.contains("Legender"));
+		System.out.println("Index of Curiser : " + v1.indexOf("Cruiser"));
+		System.out.println("Size of vector : " + v1.size());
+		System.out.println("Cloned vector List : " + v1.clone());
+		System.out.println("vector elements using toArray():"+v1.toArray());
 
 
 	}
