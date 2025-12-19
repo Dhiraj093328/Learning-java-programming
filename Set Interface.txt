@@ -1,0 +1,7 @@
+Set Interface :
+-Set does not allow duplicates
+
+1.HashSet
+2.LinkedHashset
+3.TreeSet :
+
